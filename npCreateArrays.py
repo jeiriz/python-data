@@ -30,3 +30,11 @@ print("array 3d",array3d)
 arr5d = np.array([1,2,[3],3,6,7], ndmin=5)
 print(arr5d)
 
+#2 4 
+print(arr1d[1:5:2])
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[0:8:2]) # 1 3 5 7
+# ==
+print (arr[::2]) # 1 3 5 7 usa el step para imprimir cada 2 valores, utilizando slicing
+

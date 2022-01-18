@@ -1,6 +1,7 @@
 # Beautifull soup y requests
 import requests as rq
 from bs4 import BeautifulSoup as bs
+from string import Template
 import csv
 
 url = 'https://coinmarketcap.com/all/views/all/'
@@ -24,3 +25,5 @@ for price in criptos_price:
 # zip -> utiliza 2 listas/tuplas para crear otra lista con pares de elementos, es decir, elprimer elemento de la primera lista siendo su par el primer elemento de la segunda lista
 for nombre,price in zip(criptos_name_list[0:2],criptos_price_list[0:2]):
     print(nombre,price)
+
+

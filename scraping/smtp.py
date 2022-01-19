@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 
 smtp = smtplib.SMTP(host='smtp.gmail.com', port=587)
 smtp.starttls()
-smtp.login('juan.eiriz@alu.ifts18.edu.ar','ifts1324Utnfacultad')
+smtp.login('juan.eiriz@alu.ifts18.edu.ar','')
 
 mail = getTemplate('scraping/template.txt')
 

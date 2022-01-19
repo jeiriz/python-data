@@ -16,10 +16,10 @@ print(df["Autos"])
 print(df[0:2])
 print("========")
 # Localiza la fila 1, la cual contiene Ford y 2001, a su vez, imprime la columna 
-print(df.loc[1]) # o loc[[0,1]] si no se pone doble lista, rompe
+print(df.loc[1]) # o loc[[0,1]] si no se pone doble lista, rompe, #first row of the dataframe
 
 #Ademas de localizar rows, podes localizar index
-df = pd.DataFrame(myData, index = ["A","B"])
+df = pd.DataFrame(myData, index = ["A","B"]) #eso sirve cuando queres cargar una variable tipo lista o diccionario, no es csv o json
 print(df.loc["A"])
 
 #Series == column in table, unidimensional

@@ -1,14 +1,14 @@
 nombre,apellido, edad, ciudad, sexo, pais
-juan, eiriz, 12, buenos aires, m, argentina
-carlos, raul, 12, buenos aires, m, argentina
+juan, 12, buenos aires, m, argentina
+, raul, 12, buenos aires, m, argentina
 juan, eiriz, 12, buenos aires, m, argentina
 carlos, raul, 12, buenos aires, m, argentina
 juan, eiriz, , buenos aires, m, argentina
 carlos, raul, 12, buenos aires, m, argentina
 juan, eiriz, 12, , m, argentina
 carlos, raul, 12,, m, argentina
-juan, eiriz, buenos aires, m, argentina
-carlos,     , 12, buenos aires, m, argentina
+, eiriz, buenos aires, m, argentina
+     , 12, buenos aires, m, argentina
 carlos, raul, 12, buenos aires, m, argentina
 carlos, raul, 12, buenos aires, m, argentina
 carlos, raul, 12, buenos aires, m, argentina
